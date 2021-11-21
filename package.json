@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next-remote-watch ./README.md projects/",
+    "ci": "yarn install --frozen-lockfile",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
