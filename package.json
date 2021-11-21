@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@slack/web-api": "^6.5.0",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^9",
     "next": "12.0.2",
