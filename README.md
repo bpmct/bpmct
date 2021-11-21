@@ -1,6 +1,6 @@
 # Ben Potter
 
-![](https://img.shields.io/endpoint?url=https://5253-136-49-251-66.ngrok.io/api/raspberry_pi_status&cacheSeconds=3&logo=raspberrypi&labelColor=c51a4a&style=for-the-badge&cacheSeconds=4) [![](https://img.shields.io/endpoint?url=https://5253-136-49-251-66.ngrok.io/api/slack_status&cacheSeconds=4&logo=slack&style=for-the-badge&cacheSeconds=6)](https://cdr.co/join-community)
+![](https://img.shields.io/endpoint?url=https://bpmct.net/api/raspberry_pi_status&cacheSeconds=3&logo=raspberrypi&labelColor=c51a4a&style=for-the-badge&cacheSeconds=4) [![](https://img.shields.io/endpoint?url=https://bpmct.net/api/slack_status&cacheSeconds=4&logo=slack&style=for-the-badge&cacheSeconds=6)](https://cdr.co/join-community)
 
 Hey, I'm a Developer Advocate at [Coder](https://coder.com/). I also build tiny software & hardware projects that aim to solve problems. Working with different APIs and user interfaces is also fun.
 
