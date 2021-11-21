@@ -1,5 +1,6 @@
 import Head from "next/head";
 import CodeBlock from "../../components/codeblock";
+import CustomLink from "../../components/customlink";
 
 // markdown parsing stuff (kinda obvious though)
 import { serialize } from "next-mdx-remote/serialize";
@@ -19,7 +20,7 @@ export default function Home({ html }) {
         />
       </Head>
       <article className="prose lg:prose-2xl selection:text-white dark:prose-dark selection:bg-purple-800">
-        <MDXRemote components={CodeBlock} {...html} />
+        <MDXRemote components={{ pre: CodeBlock, a: CustomLink }} {...html} />
       </article>
     </div>
   );
@@ -47,6 +48,7 @@ export async function getStaticProps() {
   const mdxSource = await serialize(markdown, {
     mdxOptions: {
       remarkPlugins: [],
+      rehypePlugins: [],
     },
   });
 

@@ -4,6 +4,7 @@ import CodeBlock from "../components/codeblock";
 // markdown parsing stuff (kinda obvious though)
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
+import CustomLink from "../components/customlink";
 
 export default function Home({ html }) {
   return (
@@ -19,7 +20,7 @@ export default function Home({ html }) {
         />
       </Head>
       <article className="prose lg:prose-2xl selection:text-white dark:prose-dark selection:bg-purple-800">
-        <MDXRemote components={CodeBlock} {...html} />
+        <MDXRemote components={{ CodeBlock, a: CustomLink }} {...html} />
       </article>
     </div>
   );
