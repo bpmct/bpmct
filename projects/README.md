@@ -4,7 +4,7 @@
 
 ## work in progress ⏳
 
-- [this website (bpmct.net)](https://github.com/bpmct/bpmct/issues/new) 👨🏼‍💻
+- [this website (bpmct.net)](https://github.com/bpmct/bpmct/issues) 👨🏼‍💻
 - [speeding up JetBrains IDE load time with shared indexes](https://gist.github.com/bpmct/8881034ca3efc29d9b9f4af9ee3a0f7e) 🐌
 - [gitfeedback: request code reviews on an entire project / codebase](https://github.com/bpmct/gitfeedback) 💬
 - [notion-dashboard: visualize your Notion goals & tasks](https://github.com/victoriaslocum752/notion-dashboard) 📊
