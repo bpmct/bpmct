@@ -6,6 +6,9 @@ import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 import CustomLink from "../components/customlink";
 
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { dracula } from "react-syntax-highlighter/dist/cjs/styles/prism";
+
 export default function Home({ html }) {
   return (
     <div className="m-8">
@@ -20,7 +23,13 @@ export default function Home({ html }) {
         />
       </Head>
       <article className="prose lg:prose-2xl selection:text-white dark:prose-dark selection:bg-purple-800">
-        <MDXRemote components={{ CodeBlock, a: CustomLink }} {...html} />
+        <MDXRemote
+          components={{
+            code: CodeBlock,
+            a: CustomLink,
+          }}
+          {...html}
+        />
       </article>
     </div>
   );

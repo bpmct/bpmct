@@ -20,7 +20,7 @@ export default function Home({ html }) {
         />
       </Head>
       <article className="prose lg:prose-2xl selection:text-white dark:prose-dark selection:bg-purple-800">
-        <MDXRemote components={{ pre: CodeBlock, a: CustomLink }} {...html} />
+        <MDXRemote components={{ code: CodeBlock, a: CustomLink }} {...html} />
       </article>
     </div>
   );
