@@ -1,10 +1,26 @@
 module.exports = {
+  mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
       typography(theme) {
         return {
+          DEFAULT: {
+            css: {
+              "p a:not(:only-child) img, p img:not(:only-child)": {
+                display: "inline-block",
+                maxWidth: "none",
+                marginTop: "0",
+                marginBottom: "0",
+                paddingRight: "4px",
+              },
+              pre: {
+                backgroundColor: "none",
+                padding: "0px !important",
+              },
+            },
+          },
           dark: {
             css: {
               color: theme("colors.gray.300"),
@@ -23,10 +39,6 @@ module.exports = {
               h4: { color: theme("colors.gray.100") },
               code: { color: theme("colors.gray.100") },
               "a code": { color: theme("colors.gray.100") },
-              pre: {
-                color: theme("colors.gray.200"),
-                backgroundColor: theme("colors.gray.800"),
-              },
               thead: {
                 color: theme("colors.gray.100"),
                 borderBottomColor: theme("colors.gray.700"),
