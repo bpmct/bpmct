@@ -30,7 +30,7 @@ export async function getStaticProps() {
 
   if (process.env.NODE_ENV == "production") {
     const res = await fetch(
-      "https://raw.githubusercontent.com/bpmct/bpmct/main/README.md"
+      "https://raw.githubusercontent.com/bpmct/bpmct/main/projects/README.md"
     );
     markdown = await res.text();
   } else {
