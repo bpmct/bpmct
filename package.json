@@ -13,7 +13,7 @@
     "@slack/web-api": "^6.5.0",
     "@tailwindcss/postcss7-compat": "^2.2.17",
     "@tailwindcss/typography": "^0.4.1",
-    "next": "12.0.2",
+    "next": "^12.0.2",
     "next-mdx-remote": "^3.0.8",
     "next-themes": "^0.0.15",
     "raw-loader": "^4.0.2",
