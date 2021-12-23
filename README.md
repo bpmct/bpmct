@@ -27,6 +27,8 @@ $ gitfeedback ben-starter-react-app --notify mentor-bob@company.com
 
 ## Other stuff:
 
+- 12/22/21 [experiments with rive.app](https://twitter.com/bpmct/status/1473809067004940288)
+- 12/09/21 [JetBrains shared index generator](https://coder.com/blog/faster-jetbrains-ides-with-shared-indexes)
 - 11/20/21 \[bpmct.net\]: [launch website](https://bpmct.net)
 - 10/28/21 \[coder.com/blog\]: [Remote Development with JetBrains IDEs](https://coder.com/blog/remote-development-with-jetbrains-ides)
 - 10/13/21 \[notes from gist\]: [shared indexes with JetBrains & Coder](https://gist.github.com/bpmct/8881034ca3efc29d9b9f4af9ee3a0f7e)
