@@ -13,16 +13,6 @@ Where I'm active: [Instagram](https://instagram.com/bpmct), [Twitter](https://tw
 
 <!-- END_WEB_EXCLUDE -->
 
-## Project: gitfeedback (WIP)
-
-[gitfeedback](https://github.com/bpmct/gitfeedback) is a command-line tool for requesting code reviews on an entire project.
-
-```shell
-$ gitfeedback ben-starter-react-app --notify mentor-bob@company.com
-
-✅ Created & pushed branch: gitfeedback-1
-✅ Opened GitHub pull request: #9098
-✅ Invited mentor-bob@company.com to review your code
 ```
 
 ## Other stuff:
@@ -34,3 +24,4 @@ $ gitfeedback ben-starter-react-app --notify mentor-bob@company.com
 ---
 
 I also have a [projects page](/projects).
+```
