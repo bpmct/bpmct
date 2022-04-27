@@ -24,4 +24,3 @@ Where I'm active: [Instagram](https://instagram.com/bpmct), [Twitter](https://tw
 ---
 
 I also have a [projects page](/projects).
-```
