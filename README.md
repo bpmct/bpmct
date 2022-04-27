@@ -13,8 +13,6 @@ Where I'm active: [Instagram](https://instagram.com/bpmct), [Twitter](https://tw
 
 <!-- END_WEB_EXCLUDE -->
 
-```
-
 ## Other stuff:
 
 - 12/22/21 [experiments with rive.app](https://twitter.com/bpmct/status/1473809067004940288)
