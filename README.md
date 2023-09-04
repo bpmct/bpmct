@@ -1,6 +1,6 @@
 # Ben Potter
 
-Hey, I'm a Project Manager at [Coder](https://coder.com/). I also build tiny software & hardware projects that aim to solve problems.
+Hey, I'm a Project Manager at [Coder](https://coder.com/). I also build tiny software & hardware projects.
 
 Email me: [me@bpmct.net](mailto:me@bpmct.net)
 
