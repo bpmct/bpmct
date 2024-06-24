@@ -1,0 +1,54 @@
+body {
+  margin: 12px;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+h1 {
+  padding-bottom: 4px;
+}
+
+a.selected {
+  font-weight: bold;
+}
+
+header img {
+  border-radius: 8px;
+  margin-right: 10px;
+  width: 76px;
+  height: 76px;
+}
+
+/* todo: fix */
+li {
+  margin-bottom: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a:not(:last-child)::after {
+  content: "|";
+  color: black;
+  margin-left: 4px;
+}
+
+main {
+  max-width: 600px;
+}
+
+hr {
+  margin: 0;
+  max-width: 600px;
+}
