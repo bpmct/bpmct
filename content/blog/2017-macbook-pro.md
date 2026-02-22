@@ -18,7 +18,7 @@ The installer would immediately crash when picking an install method (at the scr
 
 The logs found in `/tmp/installer.log` showed:
 
-```
+```text
 probed "/dev/nvme0n2"
 opening disk at /dev/nvme0n2
 unable to open disk; creating new table on it
@@ -53,7 +53,7 @@ WiFi was barely usable for me at first. It would sort of work, but only on 2.4GH
 
 Here's the WiFi hardware and driver I was dealing with:
 
-```
+```text
 benpotter@pop-os:~$ lspci -nnk | grep -A3 -i network
 02:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM43602 802.11ac Wireless LAN SoC [14e4:43ba] (rev 02)
         Subsystem: Apple Inc. BCM43602 802.11ac Wireless LAN SoC [106b:0157]

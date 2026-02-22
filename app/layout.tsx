@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import "highlight.js/styles/github-dark.css";
 import "./globals.css";
 
 export const metadata: Metadata = {

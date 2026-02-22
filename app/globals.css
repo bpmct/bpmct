@@ -40,6 +40,10 @@ nav {
   gap: 4px;
 }
 
+a:visited {
+  color: inherit;
+}
+
 nav a {
   text-decoration: none;
   position: relative;
@@ -60,28 +64,31 @@ main {
   width: 100%;
 }
 
+main pre,
+main figure[data-rehype-pretty-code-figure] {
+  width: min(750px, calc(100vw - 24px));
+}
+
 hr {
   margin: 0;
   max-width: 600px;
 }
 
 pre {
-  background-color: #1e1e1e;
-  color: #d4d4d4;
   padding: 16px;
-  border-radius: 4px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  font-family: 'Courier New', Courier, monospace;
+  border-radius: 6px;
+  overflow-x: auto;
   font-size: 14px;
   line-height: 1.5;
   max-width: 100%;
   width: 100%;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
 
-code {
+figure[data-rehype-pretty-code-figure] {
+  margin: 1em 0;
+}
+
+:not(pre) > code {
   background-color: #1e1e1e;
   color: #d4d4d4;
   padding: 2px 6px;
@@ -90,10 +97,7 @@ code {
   font-size: 0.9em;
 }
 
-pre code {
-  background-color: transparent;
-  padding: 0;
-}
+
 
 h3[id], h4[id] {
   position: relative;

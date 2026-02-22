@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import rehypeHighlight from "rehype-highlight";
+import rehypePrettyCode from "rehype-pretty-code";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import Header from "@/components/Header";
@@ -45,7 +45,7 @@ export default async function BlogPostPage({ params }: Props) {
           options={{
             mdxOptions: {
               rehypePlugins: [
-                rehypeHighlight,
+                [rehypePrettyCode, { theme: "github-dark-dimmed", keepBackground: true }],
                 rehypeSlug,
                 [rehypeAutolinkHeadings, { behavior: "prepend" }],
               ],
