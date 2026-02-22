@@ -1,26 +1,11 @@
-# bpmct.com
+# Ben Potter
 
-Personal website for Ben Potter, built with [Next.js 15](https://nextjs.org/) and deployed on [Vercel](https://vercel.com).
+Hey, I'm a Product person at [Coder](https://coder.com/). I also like to tinker with software, hardware, and the outdoors.
 
-## Development
+Where I'm active: [LinkedIn](https://linkedin.com/in/bpmct), [Website](https://bpmct.net)
 
-```bash
-npm install
-npm run dev
-```
+## Recent projects
 
-Open [http://localhost:3000](http://localhost:3000).
-
-## Blog
-
-Drop a `.md` file in `content/blog/` with frontmatter:
-
-```yaml
----
-title: "Post Title"
-date: "YYYY-MM-DD"
-description: "Optional description"
----
-```
-
-It will auto-appear on `/blog`.
+- 🖨️ **Tio**: A WiFi-connected thermal printer with programmable physical buttons
+- 🐦 **Birding**: ESP32-CAMs + ZoneMinder + BirdNET-Pi for backyard bird monitoring
+- 🏘️ **Neighborhood Events**: An app to find upcoming events in any neighborhood
