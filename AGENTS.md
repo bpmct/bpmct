@@ -67,3 +67,16 @@ npm run dev
 ```
 
 Dev server runs on http://localhost:3000.
+
+## Deployment (Vercel)
+
+This site deploys to [Vercel](https://vercel.com) as a Next.js project.
+
+1. Connect the GitHub repo in the Vercel dashboard
+2. Vercel auto-detects Next.js — no special config needed
+3. `vercel.json` sets `framework: "nextjs"` explicitly
+
+Build command: `next build` (Vercel default)
+Output: `.next/` (Vercel default)
+
+Every push to `main` triggers a production deploy. PRs get preview deployments automatically.
