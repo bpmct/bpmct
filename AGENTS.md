@@ -80,3 +80,25 @@ Build command: `next build` (Vercel default)
 Output: `.next/` (Vercel default)
 
 Every push to `main` triggers a production deploy. PRs get preview deployments automatically.
+
+### Vercel CLI
+
+The Vercel CLI is installed globally. After pushing to `main`, verify the deployment:
+
+```bash
+export PATH="/home/benpotter/.local/share/fnm:$PATH" && eval "$(fnm env)"
+vercel --prod
+```
+
+If not authenticated, ask the user for help — they can provide a token or log in interactively. Auth command:
+
+```bash
+vercel login
+```
+
+### Post-push checklist
+
+After merging/pushing to `main`:
+1. Push with `git push origin main`
+2. Run `vercel --prod` to trigger and monitor the production deploy
+3. Verify the deployment URL works
