@@ -83,10 +83,20 @@ Images should be JPEG, ~4:5 aspect ratio preferred. Use clean filenames (e.g. `c
 
 ```bash
 npm install
-npm run dev
+PORT=0 npm run dev
 ```
 
-Dev server runs on http://localhost:3000.
+**Use `PORT=0`** to let the OS assign a random available port. This avoids port conflicts when multiple worktrees run dev servers simultaneously. Read the port from the startup output (e.g., `Local: http://localhost:36333`).
+
+For agents running in Mux, start the dev server in the background and parse the port:
+
+```bash
+# Run in background with run_in_background=true:
+export PATH="/home/benpotter/.local/share/fnm:$PATH" && eval "$(fnm env)" && PORT=0 npm run dev
+
+# Then await with filter "Local|Ready" to grab the port from output
+# Verify with: curl -s -o /dev/null -w "%{http_code}" http://localhost:<port>
+```
 
 **Do not run `next build` to verify changes** — just keep the dev server running and use `curl` to check pages. The worktree setup can cause spurious build errors that don't affect dev.
 
