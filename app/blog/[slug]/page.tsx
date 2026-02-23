@@ -50,6 +50,14 @@ export default async function BlogPostPage({ params }: Props) {
         </p>
         <MDXRemote
           source={post.content.replace(/^#\s+.+\n*/m, "")}
+          components={{
+            a: (props) => {
+              const isExternal = props.href?.startsWith("http");
+              return isExternal
+                ? <a {...props} target="_blank" rel="noopener noreferrer" />
+                : <a {...props} />;
+            },
+          }}
           options={{
             mdxOptions: {
               remarkPlugins: [remarkGfm],
