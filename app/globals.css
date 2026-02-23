@@ -46,8 +46,9 @@ nav {
   gap: 4px;
 }
 
-
-
+a:visited {
+  color: inherit;
+}
 
 
 
