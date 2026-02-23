@@ -68,6 +68,8 @@ npm run dev
 
 Dev server runs on http://localhost:3000.
 
+**Do not run `next build` to verify changes** — just keep the dev server running and use `curl` to check pages. The worktree setup can cause spurious build errors that don't affect dev.
+
 ## Deployment (Vercel)
 
 This site deploys to [Vercel](https://vercel.com) as a Next.js project.

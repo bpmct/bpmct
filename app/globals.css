@@ -40,13 +40,15 @@ nav {
   gap: 4px;
 }
 
-a:visited {
-  color: inherit;
-}
 
 nav a {
   text-decoration: none;
   position: relative;
+  color: black;
+}
+
+nav a:visited {
+  color: black;
 }
 
 header h1 {
