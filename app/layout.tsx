@@ -3,12 +3,18 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bpmct.net"),
   title: "Ben Potter",
+  description: "Ben Potter's personal website and blog.",
   icons: { icon: "/images/headshot.jpeg" },
   alternates: {
     types: {
       "application/rss+xml": "/feed.xml",
     },
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Ben Potter",
   },
 };
 

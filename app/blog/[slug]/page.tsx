@@ -20,7 +20,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   try {
     const { meta } = getPostBySlug(slug);
-    return { title: `Ben Potter | ${meta.title}` };
+    return {
+      title: `Ben Potter | ${meta.title}`,
+      description: meta.description,
+      openGraph: {
+        title: meta.title,
+        description: meta.description,
+        type: "article",
+        publishedTime: meta.date,
+      },
+    };
   } catch {
     return { title: "Ben Potter | Blog" };
   }
