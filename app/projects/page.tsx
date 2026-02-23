@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Coder",
     description:
-      "Self-hosted dev environments. I'm a PM there, been at it for 5 years.",
+      "Self-hosted development environments. I'm a PM there, been at it for 5 years.",
     link: "https://coder.com",
     images: ["/images/projects/coder.jpg"],
   },
