@@ -133,6 +133,10 @@ h3[id] a.anchor-link:hover, h4[id] a.anchor-link:hover {
 }
 
 /* Projects grid */
+.projects-main {
+  max-width: 900px;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
