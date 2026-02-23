@@ -18,8 +18,6 @@ Write like an engineer talking to another engineer. First person, casual, direct
 
 - "Kubernetes is awesome and we still recommend enterprises use Coder v2 with Kubernetes but, as a small startup, it was overkill for us." — [Bare metal blog post](https://coder.com/blog/how-our-development-team-shares-one-giant-bare-metal-machine)
 - "We're building a remote development platform, so local development wouldn't be a good choice for us. Awkward." — same post
-- "And here's a not-ideal-but-good systemd service that waits a bit so devices have time to connect" — [PopOS on MacBook Pro](/blog/2017-macbook-pro)
-- "WiFi was barely usable for me at first. It would sort of work, but only on 2.4GHz, and even then it was flaky." — same post
 - "Sounds kinda scary." — [code-server deployment guide](https://coder.com/blog/deploying-code-server-and-developing-in-the-cloud), after listing all the requirements for remote dev
 - "code-server is a tool, not a workflow." — same post
 
@@ -33,20 +31,19 @@ Open with why the article exists — one or two sentences max. What I was trying
 
 **Examples of my actual openings:**
 
-- "Running Pop!_OS on a 2017 MacBook Pro was more difficult than I had expected, so I figured I'd document my findings in hope that it would be useful to others." — [PopOS post](/blog/2017-macbook-pro)
 - "Well, we actually develop on two machines. When our Australian coworkers found out, they wanted one too." — [Bare metal post](https://coder.com/blog/how-our-development-team-shares-one-giant-bare-metal-machine)
 - "TLDR: code-server is a tool for developing on a remote server with VS Code in the web browser. I created deploy-code-server to help people quickly install it on popular cloud platforms." — [code-server deploy post](https://coder.com/blog/deploying-code-server-and-developing-in-the-cloud)
+- "Setting up developer environments for Kubernetes projects can be complex. With Coder, developers can auto-provision a namespace on your development cluster, no need to configure tools or spin up infrastructure locally." — [Kubernetes Namespaces as Dev Environments](https://coder.com/blog/kubernetes-namespaces-as-dev-environments)
 
 ---
 
 ## Structure
 
 - **Problem → Solution sections** with clear H2/H3 headers. Each section should be self-contained so people can skip to what they need.
-- **End with next steps or open questions**, not a grand conclusion. These are living documents, not essays:
-  > "My next goal is to boot from a Thunderbolt hub (so I'm not juggling multiple cables)."
+- **End with next steps or open questions**, not a grand conclusion. These are living documents, not essays.
 - Add "Last Updated: [date]" at the bottom. I may come back to update these.
 
-For how I structure sections, look at my [PopOS post](/blog/2017-macbook-pro). Each section follows the same pattern:
+Each section should follow the same pattern:
 1. H2 header naming the problem
 2. One or two sentences of context
 3. Code block showing the error/output/config
@@ -86,11 +83,7 @@ For how I structure sections, look at my [PopOS post](/blog/2017-macbook-pro). E
 
 These are real things I've written. Study them for voice, structure, and tone.
 
-### Personal blog (the target style for these articles)
-
-- [PopOS on a 2017 MacBook Pro](/blog/2017-macbook-pro) — The canonical example of what these articles should look like. Problem-solving documentation with real terminal output, credits to others, and a "Next steps" ending.
-
-### Coder blog (similar voice, more polished)
+### Coder blog
 
 - [How Our Development Team Shares One Giant Bare Metal Machine](https://coder.com/blog/how-our-development-team-shares-one-giant-bare-metal-machine) — Casual tone, honest about tradeoffs, benchmark tables with emoji, self-deprecating humor
 - [Deploying code-server and Developing in the Cloud](https://coder.com/blog/deploying-code-server-and-developing-in-the-cloud) — Tutorial style, TLDR opening, "Sounds kinda scary" tension break
