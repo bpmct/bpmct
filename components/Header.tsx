@@ -5,7 +5,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navItems = [
-  { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
   { href: "/projects", label: "Projects" },
   { href: "https://linkedin.com/in/bpmct", label: "Contact", external: true },
