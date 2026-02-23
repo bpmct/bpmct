@@ -100,7 +100,12 @@ vercel login
 
 ### Post-push checklist
 
-After merging/pushing to `main`:
+After pushing to `main`:
 1. Push with `git push origin main`
-2. Run `vercel --prod` to trigger and monitor the production deploy
-3. Verify the deployment URL works
+2. Check Vercel deployment logs immediately — deploys are automatic, don't run `vercel --prod`
+3. Watch for build errors in the logs
+
+```bash
+export PATH="/home/benpotter/.local/share/fnm:$PATH" && eval "$(fnm env)"
+vercel logs --follow
+```
