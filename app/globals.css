@@ -20,7 +20,13 @@ h1 {
 }
 
 a.selected {
-  -webkit-text-stroke: 0.4px currentColor;
+  font-weight: 600;
+}
+
+nav a {
+  text-decoration: none;
+  position: relative;
+  color: black;
 }
 
 header img {
@@ -41,11 +47,6 @@ nav {
 }
 
 
-nav a {
-  text-decoration: none;
-  position: relative;
-  color: black;
-}
 
 nav a:visited {
   color: black;
@@ -68,7 +69,6 @@ nav a:not(:last-child)::after {
   content: "|";
   color: black;
   margin-left: 4px;
-  -webkit-text-stroke: 0;
   font-weight: normal;
 }
 

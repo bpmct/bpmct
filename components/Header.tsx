@@ -32,7 +32,7 @@ export default function Header() {
               : pathname === item.href || pathname.startsWith(item.href + "/");
             if (item.external) {
               return (
-                <a key={item.href} href={item.href}>
+                <a key={item.href} href={item.href} data-text={item.label}>
                   {item.label}
                 </a>
               );
@@ -42,6 +42,7 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 className={isSelected ? "selected" : undefined}
+                data-text={item.label}
               >
                 {item.label}
               </Link>
