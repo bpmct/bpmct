@@ -48,17 +48,9 @@ nav {
 
 
 
-nav a:visited {
-  color: black;
-}
 
-a:visited {
-  color: inherit;
-}
 
-a:active {
-  color: inherit;
-}
+
 
 
 header h1 {
