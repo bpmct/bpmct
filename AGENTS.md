@@ -94,7 +94,7 @@ For agents running in Mux, start the dev server in the background and parse the 
 # Run in background with run_in_background=true:
 export PATH="/home/benpotter/.local/share/fnm:$PATH" && eval "$(fnm env)" && PORT=0 npm run dev
 
-# Then await with filter "Local|Ready" to grab the port from output
+# Then await (no filter) to grab the port from output
 # Verify with: curl -s -o /dev/null -w "%{http_code}" http://localhost:<port>
 ```
 
