@@ -1,6 +1,7 @@
 ---
 title: "M5StickC PLUS2 IR Transmitter with Home Assistant"
 date: "2026-02-22"
+category: "Tinkering Notes"
 description: "Getting the IR transmitter working on the M5StickC PLUS2 with ESPHome and Home Assistant. The pinout is different from the original M5StickC."
 ---
 

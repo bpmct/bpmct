@@ -10,6 +10,7 @@ export interface BlogPostMeta {
   date: string;
   lastUpdated: string;
   description?: string;
+  category?: string;
 }
 
 export function getAllPosts(): BlogPostMeta[] {
@@ -26,6 +27,7 @@ export function getAllPosts(): BlogPostMeta[] {
       date: data.date ?? "",
       lastUpdated: stat.mtime.toISOString(),
       description: data.description,
+      category: data.category,
     };
   });
   return posts.sort(

@@ -1,6 +1,7 @@
 ---
 title: "PopOS on a 2017 13-inch MacBook Pro"
 date: "2025-01-01"
+category: "Tinkering Notes"
 description: "Running Pop!_OS on a 2017 MacBook Pro was more difficult than I had expected."
 ---
 
