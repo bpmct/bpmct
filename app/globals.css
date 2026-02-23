@@ -70,6 +70,29 @@ main {
   width: 100%;
 }
 
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+main th,
+main td {
+  text-align: left;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+main th {
+  font-weight: 600;
+}
+
 main pre,
 main figure[data-rehype-pretty-code-figure] {
   width: min(750px, calc(100vw - 24px));

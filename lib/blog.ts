@@ -8,6 +8,7 @@ export interface BlogPostMeta {
   slug: string;
   title: string;
   date: string;
+  lastUpdated: string;
   description?: string;
 }
 
@@ -15,12 +16,15 @@ export function getAllPosts(): BlogPostMeta[] {
   const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md"));
   const posts = files.map((file) => {
     const slug = file.replace(/\.md$/, "");
-    const raw = fs.readFileSync(path.join(BLOG_DIR, file), "utf-8");
+    const filePath = path.join(BLOG_DIR, file);
+    const raw = fs.readFileSync(filePath, "utf-8");
     const { data } = matter(raw);
+    const stat = fs.statSync(filePath);
     return {
       slug,
       title: data.title ?? slug,
       date: data.date ?? "",
+      lastUpdated: stat.mtime.toISOString(),
       description: data.description,
     };
   });
@@ -33,11 +37,13 @@ export function getPostBySlug(slug: string) {
   const filePath = path.join(BLOG_DIR, `${slug}.md`);
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
+  const stat = fs.statSync(filePath);
   return {
     meta: {
       slug,
       title: data.title ?? slug,
       date: data.date ?? "",
+      lastUpdated: stat.mtime.toISOString(),
       description: data.description,
     },
     content,

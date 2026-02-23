@@ -21,6 +21,9 @@ export default function BlogPage() {
             </li>
           ))}
         </ul>
+        <p style={{ marginTop: "2em", fontSize: "0.9em" }}>
+          <a href="/feed.xml">RSS Feed</a>
+        </p>
       </main>
     </>
   );

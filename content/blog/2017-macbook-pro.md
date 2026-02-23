@@ -99,4 +99,4 @@ Restart=on-failure
 
 My next goal is to boot from a Thunderbolt hub (so I'm not juggling multiple cables). One guide I'm using as a starting point is: [Linux Mint forum thread on Thunderbolt boot](https://forums.linuxmint.com/viewtopic.php?t=439989).
 
-*Last Updated: January 2025*
+
