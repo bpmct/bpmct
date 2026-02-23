@@ -10,7 +10,7 @@ const projects = [
     description:
       "Self-hosted dev environments. I'm a PM there, been at it for 5 years.",
     link: "https://coder.com",
-    images: ["/images/projects/coder-1.jpg"],
+    images: ["/images/projects/coder.jpg"],
   },
   {
     name: "Nook Simple Touch w/ TRMNL",
@@ -29,7 +29,7 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <>
+    <div className="projects-page">
       <Header />
       <hr />
       <main className="projects-main">
@@ -40,6 +40,6 @@ export default function ProjectsPage() {
           ))}
         </div>
       </main>
-    </>
+    </div>
   );
 }

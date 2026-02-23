@@ -20,7 +20,7 @@ h1 {
 }
 
 a.selected {
-  font-weight: bold;
+  -webkit-text-stroke: 0.4px currentColor;
 }
 
 header img {
@@ -68,6 +68,8 @@ nav a:not(:last-child)::after {
   content: "|";
   color: black;
   margin-left: 4px;
+  -webkit-text-stroke: 0;
+  font-weight: normal;
 }
 
 main {
@@ -137,15 +139,20 @@ h3[id] a.anchor-link:hover, h4[id] a.anchor-link:hover {
   max-width: 900px;
 }
 
+.projects-page header,
+.projects-page hr {
+  max-width: 900px;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 24px;
+  gap: 12px;
 }
 
 .project-card {
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 4px;
   overflow: hidden;
   background: #fff;
 }

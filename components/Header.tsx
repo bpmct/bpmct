@@ -15,12 +15,14 @@ export default function Header() {
 
   return (
     <header>
-      <Image
-        src="/images/headshot.jpeg"
-        alt="My headshot"
-        width={76}
-        height={76}
-      />
+      <Link href="/">
+        <Image
+          src="/images/headshot.jpeg"
+          alt="My headshot"
+          width={76}
+          height={76}
+        />
+      </Link>
       <div>
         <h1>Ben Potter</h1>
         <nav>
