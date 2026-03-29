@@ -6,6 +6,13 @@ export const metadata: Metadata = { title: "Ben Potter | Projects" };
 
 const projects = [
   {
+    name: "nooks.bpmct.net",
+    description:
+      "A web-based tool for flashing and managing Nook Simple Touch e-readers. Upload firmware, manage devices, and set up TRMNL — all from your browser.",
+    link: "https://nooks.bpmct.net",
+    images: ["/images/projects/nooks-1.jpg"],
+  },
+  {
     name: "Coder",
     description:
       "Self-hosted development environments. I'm a PM there, been at it for 5 years.",
