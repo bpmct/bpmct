@@ -8,7 +8,7 @@ const projects = [
   {
     name: "nooks.bpmct.net",
     description:
-      "A web-based tool for flashing and managing Nook Simple Touch e-readers. Upload firmware, manage devices, and set up TRMNL — all from your browser.",
+      "Flash and manage Nook Simple Touch e-readers with TRMNL support — all from your browser.",
     link: "https://nooks.bpmct.net",
     images: ["/images/projects/nooks-1.jpg"],
   },
