@@ -6,13 +6,6 @@ export const metadata: Metadata = { title: "Ben Potter | Projects" };
 
 const projects = [
   {
-    name: "nooks.bpmct.net",
-    description:
-      "Flash and manage Nook Simple Touch e-readers with TRMNL support — all from your browser.",
-    link: "https://nooks.bpmct.net",
-    images: ["/images/projects/nooks-1.jpg"],
-  },
-  {
     name: "Coder",
     description:
       "Self-hosted development environments. I'm a PM there, been at it for 5 years.",
@@ -25,6 +18,13 @@ const projects = [
       "Convert a $20 used tablet to use TRMNL, an open ecosystem for e-ink displays.",
     link: "https://github.com/usetrmnl/trmnl-nook-simple-touch",
     images: ["/images/projects/nook-1.jpg", "/images/projects/nook-2.jpg", "/images/projects/nook-3.jpg"],
+  },
+  {
+    name: "nooks.bpmct.net",
+    description:
+      "Flash and manage Nook Simple Touch e-readers with TRMNL support — all from your browser.",
+    link: "https://nooks.bpmct.net",
+    images: ["/images/projects/nooks-1.jpg"],
   },
   {
     name: "Tio (coming soon)",

@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             src={src}
             alt={`${project.name} photo ${i + 1}`}
             width={300}
-            height={300}
+            height={375}
             priority={true}
             className={`project-img carousel-slide${i === index ? " active" : ""}`}
           />
