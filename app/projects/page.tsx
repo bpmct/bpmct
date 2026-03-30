@@ -25,6 +25,13 @@ const projects = [
       "Tiny thermal printer for trivia, date night suggestions, or sending notes to friends.",
     images: ["/images/projects/tio-1.jpg"],
   },
+  {
+    name: "nooks.bpmct.net",
+    description:
+      "Flash Nook Simple Touch e-readers and set up TRMNL from your browser.",
+    link: "https://nooks.bpmct.net",
+    images: ["/images/projects/nooks-1.jpg"],
+  },
 ];
 
 export default function ProjectsPage() {
