@@ -22,7 +22,7 @@ const projects = [
   {
     name: "nooks.bpmct.net",
     description:
-      "Flash and manage Nook Simple Touch e-readers with TRMNL support — all from your browser.",
+      "Flash Nook Simple Touch e-readers and set up TRMNL from your browser.",
     link: "https://nooks.bpmct.net",
     images: ["/images/projects/nooks-1.jpg"],
   },
