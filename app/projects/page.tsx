@@ -20,17 +20,17 @@ const projects = [
     images: ["/images/projects/nook-1.jpg", "/images/projects/nook-2.jpg", "/images/projects/nook-3.jpg"],
   },
   {
+    name: "Tio (coming soon)",
+    description:
+      "Tiny thermal printer for trivia, date night suggestions, or sending notes to friends.",
+    images: ["/images/projects/tio-1.jpg"],
+  },
+  {
     name: "nooks.bpmct.net",
     description:
       "Flash Nook Simple Touch e-readers and set up TRMNL from your browser.",
     link: "https://nooks.bpmct.net",
     images: ["/images/projects/nooks-1.jpg"],
-  },
-  {
-    name: "Tio (coming soon)",
-    description:
-      "Tiny thermal printer for trivia, date night suggestions, or sending notes to friends.",
-    images: ["/images/projects/tio-1.jpg"],
   },
 ];
 
