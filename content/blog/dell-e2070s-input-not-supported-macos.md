@@ -1,6 +1,6 @@
 ---
 title: "Fixing \"Input Not Supported\" on a Dell E2070S on macOS"
-date: "2025-01-15"
+date: "2026-07-08"
 category: "Tinkering Notes"
 description: "A not-ideal-but-good-enough workaround for the \"Input Not Supported\" error on a Dell E2070S monitor when connected to a Mac, using BetterDisplay's DDC features."
 ---
