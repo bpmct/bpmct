@@ -7,7 +7,7 @@ description: "A not-ideal-but-good-enough workaround for the \"Input Not Support
 
 # Fixing "Input Not Supported" on an AOC E2070S on macOS
 
-I used an [AOC E2070S](https://www.displayspecifications.com/en/model/a217fef) (a 20-inch, 1600x900 monitor) as a second screen for a couple of weeks. Plugged into a Mac, it kept showing "Input Not Supported" on the OSD. Sometimes the screen was black, sometimes it flashed the error and gave up.
+I used an [AOC E2070S](https://www.displayspecifications.com/en/model/a217fef) (a 20-inch, 1600x900 monitor) as a second screen for a couple of weeks. Plugged into a Mac, it kept showing "Input not Support" on the OSD (that's the exact wording the monitor uses). Sometimes the screen was black, sometimes it flashed the error and gave up.
 
 This isn't a great fix, but it got me through two weeks, so I'm writing it down in case it helps someone.
 
