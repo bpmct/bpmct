@@ -1,13 +1,13 @@
 ---
-title: "Fixing \"Input Not Supported\" on a Dell E2070S on macOS"
+title: "Fixing \"Input Not Supported\" on an AOC E2070S on macOS"
 date: "2026-07-08"
 category: "Tinkering Notes"
-description: "A not-ideal-but-good-enough workaround for the \"Input Not Supported\" error on a Dell E2070S monitor when connected to a Mac, using BetterDisplay's DDC features."
+description: "A not-ideal-but-good-enough workaround for the \"Input Not Supported\" error on an AOC E2070S monitor when connected to a Mac, using BetterDisplay's DDC features."
 ---
 
-# Fixing "Input Not Supported" on a Dell E2070S on macOS
+# Fixing "Input Not Supported" on an AOC E2070S on macOS
 
-I was working out of a secondary setup for a couple of weeks and the only spare monitor I had was a [Dell E2070S](https://www.dell.com/support/home/en-us/product-support/product/dell-e2070s-monitor/docs) — a 20-inch, 1600x900 panel that's older than some of my cables. Plugged into a Mac, it kept throwing the dreaded **"Input Not Supported"** message on the OSD. Sometimes it'd come up black, sometimes it'd flash the error and give up.
+I was working out of a secondary setup for a couple of weeks and the only spare monitor I had was an [AOC E2070S](https://www.aoc.com/) — a 20-inch, 1600x900 panel that's older than some of my cables. Plugged into a Mac, it kept throwing the dreaded **"Input Not Supported"** message on the OSD. Sometimes it'd come up black, sometimes it'd flash the error and give up.
 
 This isn't a clean fix, but it got me through two weeks of using it as a second screen, so I'm writing it down in case it saves someone else the same headache.
 
